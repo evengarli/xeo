@@ -1,6 +1,11 @@
 [package]
 name = "xeo"
-version = "0.1.0"
-edition = "2024"
+version = "0.0.1"
+edition = "2021"
+authors = ["Even Garli <Garlieven@gmail.com>"]
+description = "Fast Rust-Based Web-Framework"
+license = "MIT"
+repository = "https://github.com/evengarli/xeo"
+homepage = "https://xeo.rs"
 
 [dependencies]
