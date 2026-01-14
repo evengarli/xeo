@@ -3,7 +3,7 @@ use std::net::{TcpListener, TcpStream};
 use std::io::Write;
 
 pub fn version() -> &'static str {
-    "Xeo Framework v0.0.1"
+    "Xeo Framework v0.1.0"
 }
 
 fn get_200(buf: &str) -> String {
