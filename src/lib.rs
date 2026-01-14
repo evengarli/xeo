@@ -3,7 +3,7 @@ use std::net::{TcpListener, TcpStream};
 use std::io::Write;
 
 pub fn version() -> &'static str {
-    "Xeo Framework v0.1.0"
+    "Xeo Framework v0.1.1"
 }
 
 fn get_200(buf: &str) -> String {
@@ -37,7 +37,6 @@ pub fn server(html_site: &str, port: u16) {
             return;
         }
     };
-    let response = get_200(&main_page);
 
     for stream in listener.incoming() {
         match stream {
